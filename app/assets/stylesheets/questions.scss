@@ -24,7 +24,13 @@
 }
 
 .link {
-  color: blue;
+  font-weight: bolder;
+  color: rgba(20, 100, 160, 1);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: pink;
 }
 
 .answer {

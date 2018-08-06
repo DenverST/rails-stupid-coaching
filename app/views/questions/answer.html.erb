@@ -3,12 +3,14 @@
   <div class="white">
     <h1>Stupid Coaching</h1>
 
-    <h4> <%=@question %> </h4>
-    <p> <i> - you</i></p>
-
-    <h4> <%=@answer %> </h4>
-    <p> <i> - your coach</i></p>
-
+    <div class="bgray">
+      <h4> <%=@question %> </h4>
+      <p> <i> - you</i></p>
+    </div>
+    <div class="bgray">
+      <h4> <%=@answer %> </h4>
+      <p> <i> - your coach</i></p>
+    </div>
 
 <%= link_to "Ask a new question", ask_path, class: 'link' %>
   </div>

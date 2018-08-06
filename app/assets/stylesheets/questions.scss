@@ -31,7 +31,21 @@
   padding: 10px;
 }
 
-p {
+h4 {
+  padding-left: 10px
+}
+
+h5 {
+  font-size: 15px;
   padding: 10px;
 }
 
+p {
+  padding-left: 20px;
+  // padding: 10px;
+}
+
+.bgray {
+  border-left: 4px solid darkgray;
+  text-align: left;
+}
